@@ -1,0 +1,62 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 8vh auto 0 auto;
+    box-shadow: 0px 0px 43px 0px rgba(153, 153, 153, 1);
+    border-radius: 15px;
+}
+
+.heading {
+    text-align: center;
+    opacity: 0.5;
+    background-color: #dadce0;
+    padding: 5px;
+    border-radius: 10px;
+    border: 0.2px solid black;
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 0.2px solid black;
+    border-radius: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    border: 0.5px solid white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #dadce0;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid white;
+    transition: 0.4s ease-in-out;
+}
+
+#equal {
+    background-color: #4285f4;
+    color: white;
+}
+
+#equal:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
